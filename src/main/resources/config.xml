@@ -1,0 +1,13 @@
+<beans>
+    <bean id="d" class="net.agrigah.dao.DaoImpl"/>
+    <bean id="metier" class="net.agrigah.metier.MetierImpl">
+        <constructor-arg ref="d"/>
+    </bean>
+
+
+        <bean id="dao" class="net.agrigah.dao.DaoImpl"/>
+        <bean id="metier" class="net.agrigah.metier.MetierImpl">
+            <property name="dao" ref="dao"/>
+        </bean>
+
+</beans>

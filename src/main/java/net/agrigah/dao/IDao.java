@@ -1,7 +1,5 @@
 package net.agrigah.dao;
 
-public interface IDao  {
-    double getData(
-
-    );
+public interface IDao {
+    double getData();
 }
