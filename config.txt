@@ -1,0 +1,2 @@
+net.agrigah.ext.DaoImplV2
+net.agrigah.metier.MetierImpl

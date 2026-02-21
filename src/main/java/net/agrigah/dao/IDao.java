@@ -4,6 +4,4 @@ public interface IDao  {
     double getData(
 
     );
-
-    double gatData();
 }

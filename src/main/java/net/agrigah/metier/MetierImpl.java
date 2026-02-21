@@ -20,9 +20,8 @@ public class MetierImpl implements IMetier {
 
     @Override
     public double calcul() {
-        double t = dao.gatData();
-        double res =t * 12 *Math.PI/2 *Math.cos(t);
-
+        double t = dao.getData();
+        double res = t * 2;
         return res;
     }
 

@@ -1,4 +1,4 @@
-package net.agrigah.ext.DaoImplV2;
+package net.agrigah.ext;
 
 import net.agrigah.dao.IDao;
 

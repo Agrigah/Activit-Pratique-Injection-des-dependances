@@ -1,7 +1,8 @@
 package net.agrigah.pres;
 
 import net.agrigah.dao.DaoImpl;
-import net.agrigah.ext.DaoImplV2.DaoImplV2;
+
+import net.agrigah.ext.DaoImplV2;
 import net.agrigah.metier.MetierImpl;
 
 public class Pres1 {
