@@ -23,36 +23,7 @@ Le support de trois types d’injection :
 
 ✔ Injection par Attribut (Field)
 
-📁 Structure du Projet
-net.agrigah
-│
-├── dao
-│   ├── IDao.java
-│   ├── DaoImpl.java
-│
-├── ext
-│   ├── DaoImplV2.java
-│
-├── metier
-│   ├── IMetier.java
-│   ├── MetierImpl.java
-│
-├── framework
-│   ├── annotations
-│   │   ├── Component.java
-│   │   ├── Autowired.java
-│   │   ├── Qualifier.java
-│   │
-│   ├── context
-│   │   ├── ApplicationContextAnnotation.java
-│   │   ├── ApplicationContextXML.java
-│
-├── pres
-│   ├── PresTestAnnotation.java
-│   ├── PresTestXML.java
-│
-resources
-│   └── config.xml
+
 ⚙️ Partie 1 – Composants Métier
 🔹 Interface DAO
 public interface IDao {
